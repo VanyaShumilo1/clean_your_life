@@ -11,11 +11,18 @@
     font-family: 'Poppins', sans-serif;
 }
 .container {
-    max-width: 1140px;
+    width: 1206px;
     margin: 0 auto;
 }
 
+a {
+    color: inherit;
+    font-size: inherit;
+}
 
+
+@import "blocks/button";
+@import "blocks/navigation";
 
 
 @import "blocks/media";

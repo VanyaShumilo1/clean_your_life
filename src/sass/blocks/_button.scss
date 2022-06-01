@@ -1,0 +1,19 @@
+.button {
+    padding: 12px 14px;
+    border: none;
+    outline: none;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3A79FF;
+    background: #D2E1FF;
+    border-radius: 2px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+    &:hover {
+        color: #D2E1FF;
+        background: #3A79FF;
+    }
+}   
