@@ -1,7 +1,4 @@
 @import "libs/bootstrap-reboot.min";
-//@import "libs/animate";
-//@import "libs/slick";
-
 
 @import 'base/variables';
 @import 'base/mixins';
@@ -21,8 +18,13 @@ a {
 }
 
 
+@import "blocks/title";
 @import "blocks/button";
 @import "blocks/navigation";
+@import "blocks/header";
+@import "blocks/customers";
+@import "blocks/plan";
+@import "blocks/about";
 
 
 @import "blocks/media";

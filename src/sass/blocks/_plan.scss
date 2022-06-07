@@ -1,0 +1,26 @@
+.plan {
+    padding: 170px 0;
+    background: #F5F8FF;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 55px;
+        margin-top: 27px;
+    }
+
+    &__text {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 29px;  
+        color: #8D96BD;
+    }
+
+    &__trigger {
+        margin-top: 47px;
+        display: flex;
+        gap: 1эpx;
+    }
+}
